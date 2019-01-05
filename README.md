@@ -22,7 +22,7 @@ Beamer 提供多个预设主题和颜色模版，本例子使用主题模版 `Bo
 
 ## Beamer 环境
 
-> 注：在 LaTeX 中，内置的标签（命令），比如 `equation`、`table`、`figure`、`section` 成为环境（environment）
+> 注：在 LaTeX 中，内置的标签（命令），比如 `equation`、`table`、`figure`、`section` 称为环境（environment）
 
 ### Block
 
