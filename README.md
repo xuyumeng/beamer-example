@@ -2,7 +2,8 @@
 
 ## 本代码下载方法（如果你第一次用 github）
 
-
+点击绿色按钮 `Clone or download`, 然后点击 `Download ZIP` 下载
+![Download Instruction](instruction.png)
 ## 使用方法
 
 Macos 和 Linux 用户可以直接在目录下输入以下命令编译
