@@ -2,7 +2,7 @@
 
 ## 本代码下载方法（如果你第一次用 github）
 
-点击绿色按钮 `Clone or download`, 然后点击 `Download ZIP` 下载
+点击上面绿色按钮 `Clone or download`, 然后点击 `Download ZIP` 下载，说明截图：
 ![Download Instruction](instruction.png)
 ## 使用方法
 
