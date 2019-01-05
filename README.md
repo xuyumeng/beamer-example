@@ -4,6 +4,34 @@
 
 点击上面绿色按钮 `Clone or download`, 然后点击 `Download ZIP` 下载，说明截图：
 ![Download Instruction](instruction.png)
+
+## 注意！Windows 用户请先用记事本打开 tex 文件，复制到自己的文件里！
+
+WinEdit 可能因为默认编码问题，无法直接打开 utf8 编码的文件，请用`记事本`打开，复制内容到自己新建的 tex 文件里。
+
+另外因为旧版本的不支持 demo 用的 `example-image`，我把图片的那一页注释掉了，需要的可以把图片地址改成自己的图片名称，再编译，注释掉的代码如下
+
+```latex
+    \begin{frame}
+        \frametitle{\textbf{Example of subfigure}}
+        \centering
+        Idea A $\Longleftrightarrow$ Idea B
+        \vskip 2em
+        \begin{figure}
+            \begin{subfigure}[t]{0.4\textwidth}
+                \centering
+                \includegraphics[width=\linewidth]{example-image}
+                \caption{Image Caption}
+            \end{subfigure}\hskip 1em%
+            \begin{subfigure}[t]{0.4\textwidth}
+                \centering
+                \includegraphics[width=\linewidth]{example-image}
+                \caption{Image Caption}
+            \end{subfigure}
+        \end{figure}
+    \end{frame}
+```
+
 ## 使用方法
 
 Macos 和 Linux 用户可以直接在目录下输入以下命令编译
