@@ -10,7 +10,7 @@
 \usepackage{amsmath}
 \usepackage{verbatim}
 \usepackage{anyfontsize}
-\usepackage{subcaption} % 子图片
+\usepackage{subfigure} % 子图片
 \usepackage{graphicx} % 图片
 \usepackage[export]{adjustbox}
 \setbeamertemplate{caption}[numbered]
@@ -64,24 +64,17 @@
         \end{exampleblock}
     \end{frame}
 
-    % \begin{frame}
-    %     \frametitle{\textbf{Example of subfigure}}
-    %     \centering
-    %     Idea A $\Longleftrightarrow$ Idea B
-    %     \vskip 2em
-    %     \begin{figure}
-    %         \begin{subfigure}[t]{0.4\textwidth}
-    %             \centering
-    %             \includegraphics[width=\linewidth]{example-image}
-    %             \caption{Image Caption}
-    %         \end{subfigure}\hskip 1em%
-    %         \begin{subfigure}[t]{0.4\textwidth}
-    %             \centering
-    %             \includegraphics[width=\linewidth]{example-image}
-    %             \caption{Image Caption}
-    %         \end{subfigure}
-    %     \end{figure}
-    % \end{frame}
+    \begin{frame}
+        \frametitle{\textbf{Example of subfigure}}
+        \centering
+        Idea A $\Longleftrightarrow$ Idea B
+        \vskip 2em
+        \begin{figure}
+            \subfigure[Image Caption]{\includegraphics[width=0.4\linewidth]{example-image}}
+            \subfigure[Image Caption]{\includegraphics[width=0.4\linewidth]{example-image}}
+            \caption{This is a caption}
+        \end{figure}
+    \end{frame}
 
     \begin{frame}
         \frametitle{\textbf{Black hole}}
