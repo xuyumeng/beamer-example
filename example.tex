@@ -18,6 +18,12 @@
 \resetcounteronoverlays{saveenumi}
 \usepackage[multidot]{grffile} % 允许文件名带多个点
 \usepackage{tabularx} % 表格
+\usepackage{tikz}
+%%%%%%%%%%%%%%%%%%%
+% 使用背景
+\pgfdeclareimage[height=\paperheight,width=\paperwidth]{bgimage}{lzu.jpg}
+\usebackgroundtemplate{\tikz\node[opacity=0.1,inner sep=0]{\pgfuseimage{bgimage}};}
+%%%%%%%%%%%%%%%%%%%
 
 %\usepackage{ctex} % xelatex 中文
 
